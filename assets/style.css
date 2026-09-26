@@ -267,11 +267,14 @@
     position:absolute;inset:0;
     pointer-events:none;
     background:
-      linear-gradient(100deg, rgba(9,9,10,.9) 0%, rgba(9,9,10,.72) 38%, rgba(9,9,10,.3) 70%, rgba(9,9,10,.5) 100%),
-      radial-gradient(ellipse 900px 600px at 82% 8%, rgba(196,155,77,.18), transparent 60%),
-      radial-gradient(ellipse 700px 500px at 8% 100%, rgba(32,43,67,.75), transparent 62%),
-      repeating-linear-gradient(115deg, rgba(255,255,255,.022) 0px, rgba(255,255,255,.022) 1px, transparent 1px, transparent 3px);
+      linear-gradient(100deg, rgba(9,9,10,.62) 0%, rgba(9,9,10,.42) 38%, rgba(9,9,10,.1) 70%, rgba(9,9,10,.22) 100%),
+      radial-gradient(ellipse 900px 600px at 82% 8%, rgba(196,155,77,.12), transparent 60%),
+      radial-gradient(ellipse 700px 500px at 8% 100%, rgba(32,43,67,.45), transparent 62%),
+      repeating-linear-gradient(115deg, rgba(255,255,255,.018) 0px, rgba(255,255,255,.018) 1px, transparent 1px, transparent 3px);
   }
+  /* lighter veil: the copy over the film carries its own soft shadow */
+  .hero-inner h1,.hero-inner .lede,.hero-inner .eyebrow,.hero-inner .trust-line,
+  .hero-msg{text-shadow:0 2px 14px rgba(0,0,0,.6),0 1px 3px rgba(0,0,0,.5);}
   /* offset the fixed bar so the closing block never sits underneath it */
   .hero .container{position:relative;z-index:3;padding-top:76px;}
   .hero-cue{
@@ -356,6 +359,7 @@
     margin-top:18px;
     font-size:1.02rem;
     max-width:50ch;
+    color:rgba(245,232,193,.9);
   }
   .hero-cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:26px;}
   .hero .hero-cta .btn{padding:7px 14px;font-size:.74rem;letter-spacing:.03em;}
@@ -366,7 +370,7 @@
     align-items:center;
     gap:14px;
     font-size:.92rem;
-    color:rgba(245,232,193,.6);
+    color:rgba(245,232,193,.82);
     font-style:italic;
     font-family:'Amiri',serif;
   }
@@ -1130,8 +1134,8 @@
   @media (max-width:900px){
     .hero-scrim{
       background:
-        linear-gradient(180deg, rgba(9,9,10,.82) 0%, rgba(9,9,10,.7) 45%, rgba(9,9,10,.8) 100%),
-        radial-gradient(ellipse 700px 500px at 80% 6%, rgba(196,155,77,.15), transparent 62%),
+        linear-gradient(180deg, rgba(9,9,10,.55) 0%, rgba(9,9,10,.42) 45%, rgba(9,9,10,.6) 100%),
+        radial-gradient(ellipse 700px 500px at 80% 6%, rgba(196,155,77,.12), transparent 62%),
         repeating-linear-gradient(115deg, rgba(255,255,255,.022) 0px, rgba(255,255,255,.022) 1px, transparent 1px, transparent 3px);
     }
   }
