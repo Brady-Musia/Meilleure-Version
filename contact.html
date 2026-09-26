@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact et rendez-vous — Meilleure Version Bordeaux Chartrons</title>
+<meta name="description" content="Réservez votre rendez-vous coiffure, barbe ou bilan capillaire, ou posez votre question avant de choisir votre prestation.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Fraunces:ital,wght@0,300..900;1,300..900&family=Rye&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header id="siteHeader" class="on-hero">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <img src="assets/emblem.png" alt="Emblème Meilleure Version">
+      <span class="brand-word"><b>Meilleure</b> <i>Version</i></span>
+    </a>
+    <nav class="mainnav">
+      <a href="index.html">Accueil</a>
+      <a href="prestations.html">Prestations</a>
+      <a href="bilan.html">Bilan capillaire</a>
+      <a href="experience.html">L'expérience MV</a>
+      <a href="coworking.html">Coworking</a>
+      <a href="a-propos.html">À propos</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+    <div class="header-cta">
+      <a href="#reserver" data-booking class="btn btn-gold">
+        <span class="lbl-full">Prendre rendez-vous</span>
+        <span class="lbl-short">Réserver</span>
+      </a>
+    </div>
+  </div>
+</header>
+
+
+<section class="page-hero page-hero--photo" style="background-image:url('assets/contact-hero.jpg')">
+  <div class="container">
+    <div class="eyebrow">Contact</div>
+    <h1>Une question avant de réserver&nbsp;?</h1>
+    <p class="lede">Choisir la bonne prestation, préparer un changement important, vérifier le temps nécessaire&nbsp;: écrivez-nous. Mieux vaut cinq minutes d'échange qu'un rendez-vous mal choisi.</p>
+    
+  </div>
+</section>
+<div class="edge" style="--edge-fill:#202B43" aria-hidden="true"></div>
+<!-- Booking and contact are two different things: this block sends people
+     to the online booking site (link set once in assets/booking.js); the
+     form below is only for writing to the salon. -->
+<section class="sec-navy" id="reserver">
+  <div class="container">
+    <div class="reviews-head">
+      <div class="eyebrow">Prendre rendez-vous</div>
+      <h2>Pour réserver, c'est en ligne.</h2>
+      <p class="lede" style="color:rgba(245,232,193,.78);margin:18px auto 0;">Choisissez votre prestation et votre créneau en quelques instants, sur notre plateforme de réservation. Le formulaire ci-dessous sert uniquement à nous écrire&nbsp;: une question, un conseil, une demande particulière.</p>
+      <div class="hero-cta" style="justify-content:center;margin-top:28px;">
+        <a href="#reserver" data-booking class="btn btn-gold">Prendre rendez-vous en ligne</a>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="edge flip" style="--edge-fill:#202B43" aria-hidden="true"></div>
+<section class="sec-light" id="form">
+  <div class="container">
+    <div class="form-wrap">
+      <div class="sec-head" style="margin-bottom:34px;">
+        <div class="eyebrow">Nous écrire</div>
+        <h2>Formulaire de contact</h2>
+        <p class="lede" style="margin-top:14px;">Votre message nous parvient directement par e-mail. Nous vous répondons pendant les horaires d'ouverture du salon.</p>
+      </div>
+      <form class="mv-form" action="#" method="post" novalidate>
+        <div class="form-grid">
+          <p class="field"><label for="c-prenom">Prénom <span class="req">*</span></label><input id="c-prenom" name="prenom" type="text" required></p>
+          <p class="field"><label for="c-nom">Nom <span class="req">*</span></label><input id="c-nom" name="nom" type="text" required></p>
+          <p class="field"><label for="c-email">Adresse e-mail <span class="req">*</span></label><input id="c-email" name="email" type="email" required></p>
+          <p class="field"><label for="c-tel">Téléphone <span class="opt">facultatif</span></label><input id="c-tel" name="tel" type="tel"></p>
+        </div>
+        <p class="field">
+          <label for="c-objet">Objet de la demande <span class="req">*</span></label>
+          <select id="c-objet" name="objet" required>
+            <option value="">Choisissez…</option>
+            <option>Choisir une prestation</option><option>Préparer une transformation</option><option>Bilan capillaire</option><option>Modifier un rendez-vous</option><option>Coworking professionnel</option><option>Autre demande</option>
+          </select>
+        </p>
+        <p class="field">
+          <label for="c-msg">Votre message <span class="req">*</span></label>
+          <textarea id="c-msg" name="message" rows="6" required></textarea>
+        </p>
+        <p class="field check">
+          <input id="c-rgpd" name="rgpd" type="checkbox" required>
+          <label for="c-rgpd">J'accepte que mes données soient utilisées uniquement pour traiter ma demande. Consultez notre <a href="confidentialite.html">politique de confidentialité</a>. <span class="req">*</span></label>
+        </p>
+        <button type="submit" class="btn btn-gold">Envoyer mon message</button>
+        <p class="form-note"><strong>Formulaire à connecter avant la mise en ligne&nbsp;:</strong> aucune destination d'envoi n'est encore configurée. Confirmation prévue&nbsp;: «&nbsp;Merci pour votre message. Nous vous répondons pendant les horaires d'ouverture du salon.&nbsp;» En cas d'échec&nbsp;: «&nbsp;Votre message n'a pas pu être envoyé. Vérifiez les champs indiqués ou appelez-nous directement.&nbsp;»</p>
+      </form>
+
+      <!-- "Inscription à l'actualité du salon", section 12 of the document -->
+      <div class="news-block">
+        <h2>Les nouvelles de Meilleure Version</h2>
+        <p>Un e-mail utile de temps en temps&nbsp;: conseils d'entretien, nouveautés du salon, rien d'autre.</p>
+        <form class="mv-form news-form" action="#" method="post" novalidate>
+          <p class="field">
+            <label for="n-email">Votre adresse e-mail <span class="req">*</span></label>
+            <input id="n-email" name="email" type="email" required>
+          </p>
+          <button type="submit" class="btn btn-gold">Je m'inscris</button>
+        </form>
+        <p class="news-mention">Vous pouvez vous désinscrire à tout moment via le lien présent dans nos e-mails.</p>
+        <p class="form-note"><strong>Inscription à connecter avant la mise en ligne&nbsp;:</strong> aucune liste de diffusion n'est encore reliée. Confirmation prévue&nbsp;: «&nbsp;Merci&nbsp;! Votre inscription est bien enregistrée.&nbsp;»</p>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="edge flip" style="--edge-fill:#faf3e1" aria-hidden="true"></div>
+<section class="sec-dark">
+  <div class="container">
+    <div class="practical">
+      <div>
+        <div class="eyebrow">Informations pratiques</div>
+        <h2 style="margin-top:18px;font-size:clamp(1.8rem,3vw,2.4rem);">Venez nous rencontrer, aux Chartrons.</h2>
+        <ul class="info-list">
+          <li><span class="lbl">Adresse</span><span class="val">21 Place des Martyrs de la Résistance, Bordeaux — quartier des Chartrons</span></li>
+          <li><span class="lbl">Téléphone</span><span class="val placeholder-val">[Numéro professionnel à confirmer]</span></li>
+          <li><span class="lbl">E-mail</span><span class="val placeholder-val">[Adresse e-mail professionnelle à confirmer]</span></li>
+          <li><span class="lbl">Horaires</span><span class="val placeholder-val">[Jours et horaires à confirmer]</span></li>
+          <li><span class="lbl">En bus</span><span class="val">Lignes G, 2 et 16 — arrêt Saint-Seurin, juste devant le salon.</span></li>
+          <li><span class="lbl">En voiture</span><span class="val">Un vaste espace de stationnement est disponible directement en face du salon, devant la Basilique Saint-Seurin, sur la place des Martyrs-de-la-Résistance. Vous pouvez ainsi vous garer au plus près de votre rendez-vous, selon les places disponibles. Le parking public METPARK Gambetta constitue également une solution complémentaire à proximité.</span></li>
+        </ul>
+        <div class="bilan-cta">
+          <a href="https://www.google.com/maps/dir/?api=1&amp;destination=21+Place+des+Martyrs+de+la+R%C3%A9sistance%2C+33000+Bordeaux" target="_blank" rel="noopener noreferrer" class="btn btn-gold">Voir l'itinéraire</a>
+          <a href="#form" class="btn btn-ghost-dark">Nous écrire</a>
+        </div>
+      </div>
+      <a class="map-plate" href="https://www.google.com/maps/dir/?api=1&amp;destination=21+Place+des+Martyrs+de+la+R%C3%A9sistance%2C+33000+Bordeaux" target="_blank" rel="noopener noreferrer"
+         aria-label="Ouvrir l'itinéraire vers le 21 Place des Martyrs de la Résistance, 33000 Bordeaux">
+        <img class="map-img" src="assets/map.jpg" alt="Carte du quartier Saint-Seurin situant le salon">
+        <span class="map-pin" aria-hidden="true"></span>
+        <span class="map-label">21 Place des Martyrs de la Résistance<em>33000 Bordeaux</em></span>
+        <span class="map-credit">© OpenStreetMap</span>
+      </a>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a href="index.html" class="brand">
+          <img src="assets/emblem.png" alt="Emblème Meilleure Version">
+          <span class="brand-word"><b>Meilleure</b> <i>Version</i></span>
+        </a>
+        <p>Coiffure, barbe, trichologie cosmétique et coworking professionnel à Bordeaux Chartrons. Ici, chaque geste révèle la meilleure version de vous.</p>
+        <p class="foot-signature">Révéler, pas transformer.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="prestations.html">Prestations</a></li>
+          <li><a href="bilan.html">Bilan capillaire</a></li>
+          <li><a href="experience.html">L'expérience MV</a></li>
+          <li><a href="professionnels.html">Les professionnels</a></li>
+          <li><a href="a-propos.html">À propos</a></li>
+          <li><a href="coworking.html">Coworking</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Salon</h4>
+        <ul>
+          <li><a href="https://www.google.com/maps/dir/?api=1&amp;destination=21+Place+des+Martyrs+de+la+R%C3%A9sistance%2C+33000+Bordeaux" target="_blank" rel="noopener noreferrer">21 Place des Martyrs de la Résistance, Bordeaux</a></li>
+          <li><a href="contact.html" class="placeholder-val">[Téléphone à confirmer]</a></li>
+          <li><a href="contact.html" class="placeholder-val">[Horaires à confirmer]</a></li>
+          <li><a href="contact.html" class="placeholder-val">[Instagram à confirmer]</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Meilleure Version. Tous droits réservés.</span>
+      <ul class="foot-legal">
+        <li><a href="mentions-legales.html">Mentions légales</a></li>
+        <li><a href="confidentialite.html">Politique de confidentialité</a></li>
+        <li><a href="cookies.html">Gestion des cookies</a></li>
+        <li><a href="conditions-reservation.html">Conditions de réservation</a></li>
+        <li><a href="mediation.html">Médiation de la consommation</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<script>
+/* Header turns solid as soon as the visitor leaves the top of the page.
+   The home page overrides this from its own hero script. */
+(function () {
+  var header = document.getElementById('siteHeader');
+  if (!header || document.getElementById('heroVid')) return;
+  var onScroll = function () {
+    header.classList.toggle('solid', window.scrollY > 30);
+    header.classList.toggle('on-hero', window.scrollY <= 30);
+  };
+  document.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+})();
+</script>
+<script src="assets/reveal.js" defer></script>
+
+<script src="assets/booking.js" defer></script>
+</body>
+</html>

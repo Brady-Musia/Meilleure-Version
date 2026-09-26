@@ -1,0 +1,30 @@
+# --- Fichiers système ---
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# --- Anciennes versions / sauvegardes (non utilisées par le site) ---
+index-AVANT-textes.html
+assets/style-1.css
+assets/home-1.js
+assets/hero-reveal.js
+
+# --- Photos d'origine (le site utilise leurs versions optimisées) ---
+assets/00.png
+assets/001.png
+assets/1.png
+assets/2.png
+assets/3.png
+assets/apropos.png
+assets/apropos-hero.jpg
+assets/apropos-hero2.png
+assets/bilan capilaire.png
+assets/contact.png
+assets/cwork.png
+assets/experience.png
+assets/instru.png
+assets/prestations.png
+assets/hero-barbe.jpg
+assets/hero-fondateur.jpg
+assets/hero-salon.jpg
+assets/svc/Duo Prestige.png
